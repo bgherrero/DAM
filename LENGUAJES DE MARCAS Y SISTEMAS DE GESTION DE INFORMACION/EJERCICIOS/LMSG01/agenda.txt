@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda>
+<agenda>
+	<contacto>
+		<nombre>Jack</nombre>
+		<apellidos>El Destripador</apellidos>
+		<direccion>Calle Falsa 123, </direccion>
+		<email>megustalasangre@psicopatas.com</email>
+		<cumpleaños>31/10/1850</cumpleaños>
+		<telefonos>
+			<casa>555-4321</casa>
+			<movil>444-5678</movil>
+			<trabajo>666-666</trabajo>
+</telefonos>
+</contacto>
+<contacto></contacto>
+<contacto></contacto>
+</agenda>

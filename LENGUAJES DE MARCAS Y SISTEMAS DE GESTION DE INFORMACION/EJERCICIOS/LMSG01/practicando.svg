@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE practicando>
+<ejemplos>
+	<elemento>Elemento 1</elemento>
+	<elementó>Elemento 2</elementó>
+
+	<rango>1 &lt; 5 &amp; 11 &gt; 7</rango>
+
+	<user@guo>Pedro@Empleador</user@guo>
+
+	<![CDATA[<[[aa]]>]]&gt;
+	<![CDATA[hola]]>
+
+</ejemplos>

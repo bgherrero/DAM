@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+
+   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="black"/>
+   <circle cx="200" cy="50" r="40" stroke="black" stroke-width="4" fill="black"/>
+   <circle cx="125" cy="150" r="100" stroke="black" stroke-width="4" fill="blue"/>
+   <ellipse fill="white" cx="100" cy="125" rx="20" ry="30"/>
+   <ellipse fill="white" cx="150" cy="125" rx="20" ry="30"/>
+   <ellipse fill="white" cx="125" cy="200" rx="50" ry="40"/>
+   <ellipse fill="green" cx="100" cy="135" rx="10" ry="15"/>
+   <ellipse fill="green" cx="150" cy="135" rx="10" ry="15"/>
+   <ellipse fill="brown" cx="125" cy="175" rx="15" ry="10"/>
+   <polygon fill="black" points="75,200 125,225 175,200"/>
+   
+   <circle cx="350" cy="50" r="40" stroke="black" stroke-width="4" fill="black"/>
+   <circle cx="500" cy="50" r="40" stroke="black" stroke-width="4" fill="black"/>
+   <circle cx="425" cy="150" r="100" stroke="black" stroke-width="4" fill="green"/>
+   <ellipse fill="white" cx="400" cy="125" rx="20" ry="30"/>
+   <ellipse fill="white" cx="450" cy="125" rx="20" ry="30"/>
+   <ellipse fill="white" cx="425" cy="200" rx="50" ry="40"/>
+   <ellipse fill="blue" cx="400" cy="135" rx="10" ry="15"/>
+   <ellipse fill="blue" cx="450" cy="135" rx="10" ry="15"/>
+   <ellipse fill="brown" cx="425" cy="175" rx="15" ry="10"/>
+   <polygon fill="black" points="375,200 425,225 475,200"/>
+   
+   <circle cx="260" cy="200" r="20" fill="red"/>
+   <circle cx="290" cy="200" r="20" fill="red"/>
+   <polygon fill="red" points="242,210 308,210 275,250"/>
+</svg> 
+ 
