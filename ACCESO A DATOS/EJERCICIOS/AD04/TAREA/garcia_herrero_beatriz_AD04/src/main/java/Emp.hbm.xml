@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 7 ene 2025, 20:08:40 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="ad04" name="Emp" optimistic-lock="none" table="emp">
+        <id name="empno" type="int">
+            <column name="EMPNO"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="Dept" fetch="select" name="dept">
+            <column name="DEPTNO" not-null="true"/>
+        </many-to-one>
+        <property name="ename" type="string">
+            <column length="10" name="ENAME"/>
+        </property>
+        <property name="job" type="string">
+            <column length="9" name="JOB"/>
+        </property>
+        <property name="mgr" type="java.lang.Integer">
+            <column name="MGR"/>
+        </property>
+        <property name="hiredate" type="date">
+            <column length="10" name="HIREDATE"/>
+        </property>
+        <property name="sal" type="big_decimal">
+            <column name="SAL" precision="7" scale="2"/>
+        </property>
+        <property name="comm" type="big_decimal">
+            <column name="COMM" precision="7" scale="2"/>
+        </property>
+    </class>
+</hibernate-mapping>
