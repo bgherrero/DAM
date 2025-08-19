@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>
+		Ejemplo de Formulario
+		</title>
+		<style type="text/css">
+		table {
+			border: 3px solid blue;
+			}
+		td 
+			{
+			border: 3px solid red;
+			}
+		
+		textarea {
+			width: 300px;
+			height: 50px;
+			}
+				
+		</style>
+	</head>
+	<body>
+	<h2> Bienvenido al registro de usuarios de nuestro foro </h2>
+		<form action="">
+		<fieldset>
+			<legend>Introduzca su nombre de usuario y contraseña</legend>
+			<label>Usuario&nbsp;&nbsp;&nbsp;&nbsp;</label>&nbsp;&nbsp; 	<input required>
+			<br><br>
+			<label>Contraseña</label>&nbsp;&nbsp;<input type="password" required>
+			&nbsp;&nbsp;<label>Repita Contraseña</label>&nbsp;&nbsp;<input type="password" required>
+		</fieldset>	
+			<br><br>
+			Describa a continuación sus intereses:
+			<br>
+			<textarea name="area"></textarea> 
+			<br><br>
+			Por último seleccione el sistema operativo de su ordenador:
+			<select name="Sistema operativo favorito">
+				<option value="Linux">Linux </option>
+				<option value="Windows">Windows </option>
+				<option value="MacOS">Mac OS </option>
+			</select>
+			<br><br>
+			Estoy conforme con la política de privacidad de la página
+			<input type="checkbox" name"conforme" checked>
+			
+			
+			<button onclick="alert('Hola mundo!');">Registrarme </button>	
+		
+		
+		</form>	
+	</body>
+</html>

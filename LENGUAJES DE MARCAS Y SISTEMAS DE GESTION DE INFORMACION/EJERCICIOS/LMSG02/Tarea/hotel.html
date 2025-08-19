@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Reserva en hotel</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body{
+                background-image: url("https://rh-destinations.com/wp-content/uploads/2020/09/thumbnail_royal-holiday-blog-playa-arena-blanca.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            label, fieldset{
+                font-weight: bold;                
+            }
+            form{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+                box-sizing: border-box;
+            }
+        </style>        
+    </head>
+    <body>
+        <h2>Reserva en hotel</h2>
+        <form action="reserva.php" method="get">
+            <!-- introducir datos -->
+            <div>
+                <label>Nombre: </label><input type="text" size="33" name="nombre" required>
+            </div>            
+            <div>
+                <label>Apellidos: </label><input type="text" name="apellidos" size="40" required>
+            </div>
+            <div>
+                <label>Teléfono de contacto: </label><input type="text" name="teléfono" required>
+            </div>
+            <div>
+                <label>Correo electrónico: </label><input type="email" name="email" size="30" required>
+            </div>
+            <div>
+                <label>Número de noches: </label><input type="number" name="nº noches" placeholder="2" required>
+            </div>
+            <!-- menus desplegables para escoger la fecha, día y mes -->
+            <div>
+                <label>Fecha de entrada: </label>
+                <select>
+                    <option>dia</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>                 
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                </select>
+                <select>
+                    <option>mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+            </div>
+            <!-- botón de radio para elegir tipo de habitación -->
+            <div>
+                <fieldset>
+                    <legend>Tipo de habitacion</legend>
+                        <input type="radio" name="habitacion">Simple
+                        <input type="radio" name="habitacion">Doble
+                        <input type="radio" name="habitacion">Matrimonio
+                </fieldset>
+            </div>
+            <!-- campo de selección múltiple -->
+            <div>
+                <fieldset>
+                    <legend>Escoge algún servicio extra</legend>
+                    <input type="checkbox" name="extra">Desayuno
+                    <input type="checkbox" name="extra">Comida
+                    <input type="checkbox" name="extra">Cena
+                    <input type="checkbox" name="extra">Cama supletoria
+                </fieldset>
+            </div>
+            <!-- caja de texto para dejar comentarios -->
+            <div>
+                <label>Comentarios: <label>
+                        <textarea rows="4" cols="70"></textarea>
+            </div>
+            <div>
+            </div>
+            <!--botón para limpiar formulario y para enviarlo-->
+            <div>
+                <button type="button">Enviar</button>
+                <input type="reset" name="Reset">
+            </div>
+        </form>
+    </body>
+</html>
