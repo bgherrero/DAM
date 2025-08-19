@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- elemento raiz  -->
+<!ELEMENT torneo (participante)+>
+<!-- los atributos de torneo -->
+<!ATTLIST torneo edicion CDATA #REQUIRED>
+<!ATTLIST torneo anteriorGanador CDATA #REQUIRED>
+
+<!-- los atributos de torneo -->
+<!ELEMENT participante (nombre, edad, pais, cabezaDeSerie?)>
+<!-- los atributos de participante -->
+<!ATTLIST participante idP ID #REQUIRED>
+<!ATTLIST participante pareja IDREF #REQUIRED>
+<!-- los atributos de torneo -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cabezaDeSerie (#PCDATA)>

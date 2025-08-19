@@ -1,0 +1,19 @@
+{
+    "elements": {
+        "marca": {},
+        "impresora": {
+            "attributes": {
+                "compra": {},
+                "tipo": {},
+                "numSerie": {}
+            }
+        },
+        "tamaño": {},
+        "peso": {},
+        "impresoras": {},
+        "cartucho": {},
+        "enred": {},
+        "modelo": {}
+    },
+    "attributes": {}
+}

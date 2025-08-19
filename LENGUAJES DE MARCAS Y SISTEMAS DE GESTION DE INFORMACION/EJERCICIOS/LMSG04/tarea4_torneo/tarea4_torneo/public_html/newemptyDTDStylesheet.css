@@ -1,0 +1,7 @@
+/* Cascade style sheet based on newemptyDTD.dtd DTD */
+torneo { display: block }
+participante { display: block }
+nombre { display: block }
+edad { display: block }
+pais { display: block }
+cabezaDeSerie { display: block }
