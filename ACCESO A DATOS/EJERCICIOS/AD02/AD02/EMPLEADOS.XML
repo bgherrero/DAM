@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><empleados>
+    <empleado>
+        <codigo>1</codigo>
+        <nombre>Alejandra</nombre>
+        <direccion>Avenida Mayor</direccion>
+        <salario>20000.0</salario>
+        <salario>500.0</salario>
+    </empleado>
+    <empleado>
+        <codigo>2</codigo>
+        <nombre>Berta</nombre>
+        <direccion>Calle menor</direccion>
+        <salario>10000.0</salario>
+        <salario>125.0</salario>
+    </empleado>
+    <empleado>
+        <codigo>3</codigo>
+        <nombre>Carolina</nombre>
+        <direccion>Plaza de java</direccion>
+        <salario>35000.0</salario>
+        <salario>750.0</salario>
+    </empleado>
+    <empleado>
+        <codigo>4</codigo>
+        <nombre>Diana</nombre>
+        <direccion>Paseo de la infromática</direccion>
+        <salario>15000.0</salario>
+        <salario>400.0</salario>
+    </empleado>
+    <empleado>
+        <codigo>5</codigo>
+        <nombre>Esther</nombre>
+        <direccion>Ronda random</direccion>
+        <salario>20000.0</salario>
+        <salario>2000.0</salario>
+    </empleado>
+</empleados>
